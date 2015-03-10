@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/bizz84/MVArrowOverlays.git", :tag => '1.0.0' }
 
-  s.source_files = 'MVArrowOverlay/*.{h,m}', 'MVArrowOverlays/*.{h,m}'
-
-  s.resources = "MVArrowOverlays/*.storyboard" 
+  s.source_files = 'MVArrowOverlay/*.{h,m}'
 
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
 
